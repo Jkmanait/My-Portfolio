@@ -229,4 +229,25 @@
       margin-bottom: 10px;
     }
   }
+
+  .social-list {
+    display: flex;
+    justify-content: center; /* Align horizontally in the center */
+    gap: 15px; /* Add space between the icons */
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .social-item .social-link {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: inherit;
+    transition: color 0.3s;
+  }
+  
+  .social-item .social-link:hover {
+    color: #0073e6; /* Change color on hover */
+  }
+  
   
