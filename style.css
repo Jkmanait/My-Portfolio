@@ -250,4 +250,36 @@
     color: #0073e6; /* Change color on hover */
   }
   
-  
+  /* Navbar styles */
+.navbar {
+  background-color: #333; /* Dark background color */
+  padding: 10px 20px;
+}
+
+.navbar-list {
+  list-style: none; /* Remove bullet points */
+  display: flex; /* Display links horizontally */
+  justify-content: center; /* Center the list items */
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-list li {
+  margin: 0 15px; /* Space out the items */
+}
+
+.navbar-link {
+  color: white; /* Text color */
+  text-decoration: none; /* Remove underline */
+  font-size: 16px; /* Font size */
+  font-weight: 500; /* Slightly bold */
+  transition: color 0.3s ease; /* Smooth color transition on hover */
+}
+
+.navbar-link:hover {
+  color: #ff6600; /* Change text color on hover */
+}
+
+.navbar-link:active {
+  color: #cc5200; /* Slightly darker color when clicked */
+}
